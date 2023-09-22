@@ -8,40 +8,40 @@
 /* #909194 */
 @layer base {
   :root {
-    --background: 240, 100%, 99%;
-    --foreground: 210, 7%, 11%;
+    --background: 240 100% 99%;
+    --foreground: 210 7% 11%;
 
-    --primary: 201, 100%, 30%;
-    --primary-foreground: 0, 0%, 100%;
+    --primary: 201 100% 30%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 63, 100%, 19%;
-    --secondary-foreground: 0, 0%, 100%;
+    --secondary: 63 100% 19%;
+    --secondary-foreground: 0 0% 100%;
 
-    --card: 217, 25%, 90%;
-    --card-foreground: 215, 8%, 28%;
+    --card: 217 25% 90%;
+    --card-foreground: 215 8% 28%;
 
-    --accent: 301, 100%, 33%;
-    --accent-foreground: 0, 0%, 100%;
+    --accent: 301 100% 33%;
+    --accent-foreground: 0 0% 100%;
 
-    --ring: 217, 5%, 47%;
+    --ring: 217 5% 47%;
   }
 
   .dark {
-    --background: 210, 7%, 11%;
-    --foreground: 240, 5%, 89%;
+    --background: 210 7% 11%;
+    --foreground: 240 5% 89%;
 
-    --primary: 209, 100%, 79%;
-    --primary-foreground: 203, 100%, 16%;
+    --primary: 209 100% 79%;
+    --primary-foreground: 203 100% 16%;
 
-    --secondary: 63, 53%, 58%;
-    --secondary-foreground: 64, 100%, 10%;
+    --secondary: 63 53% 58%;
+    --secondary-foreground: 64 100% 10%;
 
-    --card: 215, 8%, 28%;
-    --card-foreground: 217, 12%, 79%;
+    --card: 215 8% 28%;
+    --card-foreground: 217 12% 79%;
 
-    --accent: 310, 100%, 84%;
-    --accent-foreground: 301, 100%, 18%;
+    --accent: 310 100% 84%;
+    --accent-foreground: 301 100% 18%;
 
-    --ring: 215, 6%, 57%;
+    --ring: 215 6% 57%;
   }
 }
