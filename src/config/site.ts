@@ -6,5 +6,8 @@ export const siteConfig = {
   links: {
     twitter: "",
     github: "",
+    facebook: "",
+    instagram: "",
+    youtube: "",
   },
 };

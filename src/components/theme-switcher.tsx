@@ -44,9 +44,17 @@ export const ThemeSwitcher = () => {
   return (
     <>
       {theme === "light" ? (
-        <SunIcon onClick={() => setTheme("dark")} aria-hidden="true" />
+        <SunIcon
+          onClick={() => setTheme("dark")}
+          aria-hidden="true"
+          className="text-foreground/60 hover:text-foreground/80"
+        />
       ) : (
-        <MoonIcon onClick={() => setTheme("light")} aria-hidden="true" />
+        <MoonIcon
+          onClick={() => setTheme("light")}
+          aria-hidden="true"
+          className="text-foreground/60 hover:text-foreground/80"
+        />
       )}
     </>
   );

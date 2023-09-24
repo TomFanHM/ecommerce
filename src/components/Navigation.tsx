@@ -7,6 +7,7 @@ import React, { Fragment } from "react";
 import { ThemeSwitcher } from "./theme-switcher";
 import { Popover, Transition } from "@headlessui/react";
 import { cn } from "@/utils/utils";
+import Link from "next/link";
 
 const Navigation: React.FC = () => {
   return (
@@ -44,13 +45,13 @@ const Navigation: React.FC = () => {
                 </div>
                 {/* Cart */}
                 <div className="ml-4 flow-root lg:ml-8">
-                  <a href="#" className="group -m-2 flex items-center p-2">
+                  <Link href="#" className="group -m-2 flex items-center p-2">
                     <ShoppingBag className="flex-shrink-0 text-foreground/60 group-hover:text-foreground/80" />
                     <span className="ml-2 text-sm font-medium text-foreground/60 group-hover:text-foreground/80">
                       0
                     </span>
                     <span className="sr-only">view bag</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
